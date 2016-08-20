@@ -1,3 +1,4 @@
+const endOfLine = require('os').EOL
 const express = require('express')
 const router = express.Router()
 const languages = require('../lib/lang')
@@ -7,7 +8,7 @@ const base = 'http://mucholingo.me'
 router.get('/', function(req, res, next) {
   let output = ''
   buildPageList().forEach((page) => {
-    output += page + '<br />'
+    output += page + endOfLine
   })
   res.send(output);
 })
