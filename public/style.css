@@ -2373,7 +2373,7 @@ footer {
 @media screen and (min-width: 960px) {
   html .index h2 {
     margin-bottom: 50px; }
-  html .translate h2 {
+  html .translate h2, html .language h2 {
     width: 80%; } }
 @media screen and (max-width: 959px) {
   html body {
