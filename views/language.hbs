@@ -1,0 +1,16 @@
+<div class="language">
+    <article class="column">
+      <h1>Translate from {{from}}...</h1>
+      <h2>Chat with me on Messenger to help you translate from {{from}} to:</h2>
+      <ul class="language-list">
+        {{#each languages}}
+        <li><a href="/translate/{{urlFrom}}/{{urlTo}}">{{name}}</a></h2>
+        {{/each}}
+      </ul>
+      {{> button}}
+    </article>
+    <figure class="column">
+      {{> device}}
+    </figure>
+  </div>
+</div>

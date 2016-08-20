@@ -1,0 +1,139 @@
+html {
+  @media #{$desktop} { 
+    .index {
+      h2 {
+        margin-bottom:50px;
+      }
+    }
+    .translate {
+      h2 {
+        width:80%;
+      }
+    }
+  }
+
+  @media #{$device} { 
+    body {
+      height:auto;
+    }
+    header {
+      height:auto;
+      a {
+        font-size:1rem;
+      }
+    }
+    footer {
+      height:auto;
+      padding:20px;
+      font-size:11px;
+
+      ul li {
+        margin-right:20px;
+      }
+    }
+    .container {
+      width:auto;
+      height:auto;
+
+      article, figure {
+        text-align: center;
+        &.column {
+          width:100% !important;
+        }
+      }
+
+      article {
+        margin-top:40px;
+      }
+
+      figure {
+        .device {
+          display:inline-block;
+          margin-top:60px;
+          margin-bottom:20px;
+        }
+      }
+
+      .translate {
+        h2 {
+          margin-bottom:50px;
+        }
+      }
+      .language {
+        h2 {
+          margin-bottom:20px;
+          font-size:1rem;
+        }
+
+        ul.language-list {
+          li {
+            width:20%;
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$mediumDevice} { 
+    .container {
+      h1, h2 {
+        padding:0 15px;
+      }
+      h1 {
+        font-size:2rem;
+      }
+      h2 {
+        font-size:1rem;
+      }
+      .index {
+        h1 {
+          font-size:2.5rem;
+        }
+        h2 {
+          font-size:1.4rem;
+        }
+      }
+      .language {
+        ul.language-list {
+          li {
+            width:25%;
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$smallDevice} { 
+    header {
+      a {
+        font-size:.8rem;
+      }
+    }
+    .container {
+      h1, h2 {
+        padding:0 15px;
+      }
+      h1 {
+        font-size:2rem;
+      }
+      h2 {
+        font-size:1rem;
+      }
+      .index {
+        h1 {
+          font-size:2.5rem;
+        }
+        h2 {
+          font-size:1.4rem;
+        }
+      }
+      .language {
+        ul.language-list {
+          li {
+            width:33%;
+          }
+        }
+      }
+    }
+  }
+}

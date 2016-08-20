@@ -1,0 +1,19 @@
+.error {
+  margin:auto;
+
+  article {
+    margin-top:0;
+    &.column {
+      width:100%;
+    }
+
+    h1 {
+      font-size:7rem;
+    }
+
+    h2 {
+      font-size:3rem;
+      margin-top:20px;
+    }
+  }
+}

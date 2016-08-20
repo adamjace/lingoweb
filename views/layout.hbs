@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <link rel="shortcut icon" type="image/icopng" href="/img/favicon.png"/>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/style.css' />
+  </head>
+  <body>
+    {{#if showHeader}}
+      {{> header}}
+    {{/if}}
+    <div class="container">
+      {{{body}}}
+    </div>
+    {{#if showFooter}}
+      {{> footer}}
+    {{/if}}
+  </body>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="/bower_components/typed.js/dist/typed.min.js"></script>
+  <script src="/js/4pp.js"></script>
+</html>
