@@ -12,7 +12,10 @@ html {
     }
   }
 
-  @media #{$device} { 
+  @media #{$device} {
+
+    background-position: -130px -48px;
+
     body {
       height:auto;
     }
@@ -51,6 +54,7 @@ html {
           display:inline-block;
           margin-top:60px;
           margin-bottom:20px;
+          width:80%;
         }
       }
 
@@ -87,7 +91,7 @@ html {
       }
       .index {
         h1 {
-          font-size:2.5rem;
+          font-size:2.8rem;
         }
         h2 {
           font-size:1.4rem;
@@ -121,7 +125,7 @@ html {
       }
       .index {
         h1 {
-          font-size:2.5rem;
+          font-size:2.8rem;
         }
         h2 {
           font-size:1.4rem;

@@ -2376,38 +2376,41 @@ footer {
   html .translate h2, html .language h2 {
     width: 80%; } }
 @media screen and (max-width: 959px) {
-  html body {
-    height: auto; }
-  html header {
-    height: auto; }
-    html header a {
-      font-size: 1rem; }
-  html footer {
-    height: auto;
-    padding: 20px;
-    font-size: 11px; }
-    html footer ul li {
-      margin-right: 20px; }
-  html .container {
-    width: auto;
-    height: auto; }
-    html .container article, html .container figure {
-      text-align: center; }
-      html .container article.column, html .container figure.column {
-        width: 100% !important; }
-    html .container article {
-      margin-top: 40px; }
-    html .container figure .device {
-      display: inline-block;
-      margin-top: 60px;
-      margin-bottom: 20px; }
-    html .container .translate h2 {
-      margin-bottom: 50px; }
-    html .container .language h2 {
-      margin-bottom: 20px;
-      font-size: 1rem; }
-    html .container .language ul.language-list li {
-      width: 20%; } }
+  html {
+    background-position: -130px -48px; }
+    html body {
+      height: auto; }
+    html header {
+      height: auto; }
+      html header a {
+        font-size: 1rem; }
+    html footer {
+      height: auto;
+      padding: 20px;
+      font-size: 11px; }
+      html footer ul li {
+        margin-right: 20px; }
+    html .container {
+      width: auto;
+      height: auto; }
+      html .container article, html .container figure {
+        text-align: center; }
+        html .container article.column, html .container figure.column {
+          width: 100% !important; }
+      html .container article {
+        margin-top: 40px; }
+      html .container figure .device {
+        display: inline-block;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        width: 80%; }
+      html .container .translate h2 {
+        margin-bottom: 50px; }
+      html .container .language h2 {
+        margin-bottom: 20px;
+        font-size: 1rem; }
+      html .container .language ul.language-list li {
+        width: 20%; } }
 @media screen and (max-width: 450px) {
   html .container h1, html .container h2 {
     padding: 0 15px; }
@@ -2416,7 +2419,7 @@ footer {
   html .container h2 {
     font-size: 1rem; }
   html .container .index h1 {
-    font-size: 2.5rem; }
+    font-size: 2.8rem; }
   html .container .index h2 {
     font-size: 1.4rem; }
   html .container .language ul.language-list li {
@@ -2431,7 +2434,7 @@ footer {
   html .container h2 {
     font-size: 1rem; }
   html .container .index h1 {
-    font-size: 2.5rem; }
+    font-size: 2.8rem; }
   html .container .index h2 {
     font-size: 1.4rem; }
   html .container .language ul.language-list li {
