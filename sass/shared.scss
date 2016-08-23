@@ -67,30 +67,50 @@ header {
         max-width:400px;
       }
     }
-  }   
+  }
 }
 
 footer {
   background:$pink;
   color:$white;
   font-size:14px;
-  height:2vh;
-  padding:2vh 20px;
   text-align: center;
 
-  .fa-heart {
-    font-size:12px;
+  a {
+    color:$white;
+    text-decoration: none;
   }
 
-  ul {
-    li {
-      list-style-type:none;
-      display:inline;
-      margin-right:50px;
+  .above {
+    padding:2vh 20px;
+    height:2vh;
+    text-align: center;
 
-      a {
-        color:$white;
-        text-decoration: none;
+    .fa-heart {
+      font-size:12px;
+    }
+  }
+
+  .below {
+    padding-bottom:10px;
+    font-size:12px;
+    ul {
+      li {
+        list-style-type:none;
+        display:block;
+        margin-bottom:2px;
+        &.header {
+          margin-bottom:10px;
+          color:#DDD;
+        }
+        a {
+          font-weight: 100;
+          color:$white;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
     }
   }

@@ -1,5 +1,5 @@
 html {
-  @media #{$desktop} { 
+  @media #{$desktop} {
     .index {
       h2 {
         margin-bottom:50px;
@@ -26,12 +26,10 @@ html {
       }
     }
     footer {
-      height:auto;
-      padding:20px;
       font-size:11px;
 
-      ul li {
-        margin-right:20px;
+      .above {
+        height:auto;
       }
     }
     .container {
@@ -78,7 +76,7 @@ html {
     }
   }
 
-  @media #{$mediumDevice} { 
+  @media #{$mediumDevice} {
     .container {
       h1, h2 {
         padding:0 15px;
@@ -107,7 +105,7 @@ html {
     }
   }
 
-  @media #{$smallDevice} { 
+  @media #{$smallDevice} {
     header {
       a {
         font-size:.8rem;

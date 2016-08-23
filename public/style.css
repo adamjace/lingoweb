@@ -2275,18 +2275,32 @@ footer {
   background: #ff7676;
   color: #FFFFFF;
   font-size: 14px;
-  height: 2vh;
-  padding: 2vh 20px;
   text-align: center; }
-  footer .fa-heart {
+  footer a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  footer .above {
+    padding: 2vh 20px;
+    height: 2vh;
+    text-align: center; }
+    footer .above .fa-heart {
+      font-size: 12px; }
+  footer .below {
+    padding-bottom: 10px;
     font-size: 12px; }
-  footer ul li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 50px; }
-    footer ul li a {
-      color: #FFFFFF;
-      text-decoration: none; }
+    footer .below ul li {
+      list-style-type: none;
+      display: block;
+      margin-bottom: 2px; }
+      footer .below ul li.header {
+        margin-bottom: 10px;
+        color: #DDD; }
+      footer .below ul li a {
+        font-weight: 100;
+        color: #FFFFFF;
+        text-decoration: none; }
+        footer .below ul li a:hover {
+          text-decoration: underline; }
 
 .button a {
   padding: 10px 15px;
@@ -2388,11 +2402,9 @@ footer {
       html header a {
         font-size: 1rem; }
     html footer {
-      height: auto;
-      padding: 20px;
       font-size: 11px; }
-      html footer ul li {
-        margin-right: 20px; }
+      html footer .above {
+        height: auto; }
     html .container {
       width: auto;
       height: auto; }

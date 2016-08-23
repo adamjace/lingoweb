@@ -6,13 +6,14 @@ const languages = require('../lib/lang')
 const base = 'http://mucholingo.me'
 
 router.get('/', function(req, res, next) {
-  let output = ''
+  let output = base + endOfLine
   buildPageList().forEach((page) => {
     output += page + endOfLine
   })
   res.send(output);
 })
 
+// buildPageList
 function buildPageList() {
   let list = []
   languages.forEach((from) => {
