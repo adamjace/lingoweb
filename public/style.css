@@ -2425,7 +2425,13 @@ footer {
         margin-bottom: 20px;
         font-size: 1rem; }
       html .container .language ul.language-list li {
-        width: 20%; } }
+        width: 20%; }
+      html .container .error {
+        height: 100vh; }
+        html .container .error h1 {
+          font-size: 7rem; }
+        html .container .error h2 {
+          font-size: 2.5rem; } }
 @media screen and (max-width: 450px) {
   html .container h1, html .container h2 {
     padding: 0 15px; }
