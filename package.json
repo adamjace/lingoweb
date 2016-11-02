@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "sudo forever restart -v ./bin/www",
+    "start": "sudo forever restart -v -minUptime=5000 ./bin/www",
     "css": "sass sass/base.scss public/style.css",
     "local": "node ./bin/www"
   },
