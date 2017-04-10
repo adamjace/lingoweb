@@ -5,7 +5,7 @@ const _ = require('lodash')
 
 // eg: /english
 router.get('/:from', function(req, res, next) {
-  
+
   if (!isValidRoute([req.params.from])) {
     const err = new Error('Not Found')
     err.status = 404
@@ -14,7 +14,7 @@ router.get('/:from', function(req, res, next) {
 
   const from = _.capitalize(req.params.from)
   res.render('language', {
-    showHeader: true, 
+    showHeader: true,
     showFooter: false,
     title: `Translate from ${from} | Mucho Lingo`,
     description: `Translate from ${from} on Messenger with Mucho Lingo`,
@@ -36,8 +36,8 @@ router.get('/:from/:to', function(req, res, next) {
   const from = _.capitalize(req.params.from)
   const to = _.capitalize(req.params.to)
   res.render('translate', {
-    title: `${from} to ${to} | Mucho Lingo`,
-    showHeader: true, 
+    title: `Translate ${from} to ${to} | Mucho Lingo`,
+    showHeader: true,
     showFooter: false,
     description: `Translate ${from} to ${to} on Messenger with Mucho Lingo`,
     keywords: `translate, ${from}, ${to}, free, online, languages, learn, foreign, study, facebook, messenger, bot`,
