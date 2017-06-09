@@ -1,7 +1,5 @@
-# Mucho Lingo Web
+# mucholingo.me
 
-Source code for the marketing website for Mucho Lingo - the FB Messenger translator bot.
+Source code for http://mucholingo.me
 
-Built on Node, Express and AWS
-
-Play with me here http://mucholingo.me
+Built with Node.js, Express and AWS
